@@ -29,3 +29,5 @@ public class Terms extends BaseEntity {
     @OneToMany(mappedBy = "terms", cascade = CascadeType.ALL)
     private List<MemberAgree> memberAgreeList = new ArrayList<>();
 }
+
+//test
